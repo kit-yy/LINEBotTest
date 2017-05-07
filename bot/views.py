@@ -22,7 +22,7 @@ def post_text(reply_token, text):
     print("enter post text")
     header = {
         "Content-Type": "application/json",
-        "Authorization": "Bearer rrlbmMP4gH0kCdQFinWHscLBKEwKWNVITHjEBjnC+x3BMBa3QC2P+s5QjvK4LDJ/sF+IYKpGL/cu9GZAisaJSdvU7fVkapN7ynV/dg3b/z8E5IrfTWIa0ovmrlUA4L4NLpXmcRzgeoIWcWHJ0ZrEFwdB04t89/1O/w1cDnyilFU="
+        "Authorization": "Bearer rrlbmMP4gH0kCdQFinWHscLBKEwKWNVITHjEBjnC+x3BMBa3QC2P+s5QjvK4LDJ/sF+IYKpGL/cPI4+7rufy3C1SfXfETCHquFRidmex3yyJq/sHgNecBoCqoN+EJ1dZI3gzEDGEPAqP/8F4rlVi/xAO//NNXpRQfF+Pabkez5KyE3r2Tcx+EMwVYha3C2UW3ThjCtFoltvo1tdjFh2DE7u3GKAaupPgdB04t89/1O/w1cDnyilFU="
 
     }
     output = create_answer.make_output(text)
@@ -42,7 +42,7 @@ def post_text(reply_token, text):
 def post_carousel(reply_token):
     header = {
         "Content-Type": "application/json",
-        "Authorization": "Bearer rrlbmMP4gH0kCdQFinWHscLBKEwKWNVITHjEBjnC+x3BMBa3QC2P+s5QjvK4LDJ/sF+IYKpGL/cu9GZAisaJSdvU7fVkapN7ynV/dg3b/z8E5IrfTWIa0ovmrlUA4L4NLpXmcRzgeoIWcWHJ0ZrEFwdB04t89/1O/w1cDnyilFU="
+        "Authorization": "Bearer rrlbmMP4gH0kCdQFinWHscLBKEwKWNVITHjEBjnC+x3BMBa3QC2P+s5QjvK4LDJ/sF+IYKpGL/cPI4+7rufy3C1SfXfETCHquFRidmex3yyJq/sHgNecBoCqoN+EJ1dZI3gzEDGEPAqP/8F4rlVi/xAO//NNXpRQfF+Pabkez5KyE3r2Tcx+EMwVYha3C2UW3ThjCtFoltvo1tdjFh2DE7u3GKAaupPgdB04t89/1O/w1cDnyilFU="
 
     }
     payload = {
